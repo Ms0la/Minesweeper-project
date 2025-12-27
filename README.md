@@ -2,7 +2,7 @@
 This project is dedicated to the design and development of a Minesweeper game through the integration of x86-64 Assembly and C programming languages. It was developed as part of my Computer Science degree for the course “Estructura de Computadors” (Computer Architectures).
 
 ### Parts
-**BMpart-1** was completed for the first submission and uses global Assembly variables as a mechanism for passing parameters between subroutines and C.
-**BMpart-2**, in contrast, was developed for the final submission and uses CPU registers as the primary communication method.
+**BMLegacyVer** was completed for the first submission and uses global Assembly variables as a mechanism for passing parameters between subroutines and C.
+**BMFinalVer**, in contrast, was developed for the final submission and uses CPU registers as the primary communication method.
 
 Both parts are independent and can be played without relying on each other.

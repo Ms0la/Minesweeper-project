@@ -10,6 +10,7 @@ Both parts are independent and can be played without relying on each other.
 ### Compilation
 Inside the directory of the selected version, first compile the Assembly code using:
 > yasm -f elf -m amd64 -g dwarf2 BMp[ver].asm
+
 Then, compile the C code and link it with the Assembly object file by executing:
 > gcc -no-pie -mincoming-stack-boundary=3 -o BMp[ver] -g BMp[ver].o BMp[ver]c.c
 
